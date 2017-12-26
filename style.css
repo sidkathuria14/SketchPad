@@ -1,0 +1,10 @@
+.container{
+	margin: 0px auto;
+	background-color: #0a6406;
+	width: 600px;
+	height: 600px;
+}
+body{
+	background-color: #4d4d4d;
+}
+.ui-menu { width: 150px; }
