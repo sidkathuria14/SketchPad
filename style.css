@@ -1,10 +1,22 @@
 .container{
 	margin: 0px auto;
-	background-color: #0a6406;
-	width: 600px;
-	height: 600px;
+	background-color: #ffffff;
+	width: 625px;
+	height: 625px;
 }
 body{
 	background-color: #4d4d4d;
 }
 .ui-menu { width: 150px; }
+.square-line{
+floar:left;
+}
+.square{
+	display: table-cell;
+	padding: 0;
+  margin: 0;
+	  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  float:left;
+}

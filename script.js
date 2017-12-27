@@ -22,11 +22,11 @@
 drawSheet();
 function drawSheet(){
 
-for (i=0; i < 16; i++){
+for (i=0; i < 25; i++){
    			$('<div>').addClass('square-line').appendTo(".container");
    		};
-for (j=0; j < 16; j++){
-    		$('<div>').addClass('square').css("width",600/16).css("height",600/16).appendTo(".square-line");
+for (j=0; j < 25; j++){
+    		$('<div>').addClass('square').css("width",25).css("height",25).appendTo(".square-line");
 		};
 
 
