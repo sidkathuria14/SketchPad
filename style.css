@@ -1,16 +1,22 @@
 .container{
 	margin: 0px auto;
 	background-color: #ffffff;
-	width: 625px;
-	height: 625px;
+	width: 600px;
+	height: 600px;
+	 display: table;
+ border-width: thin;
+ padding: 0;
 }
 body{
 	background-color: #4d4d4d;
+	/*width: 720px;*/
+  margin: 0 auto;
 }
 .ui-menu { width: 150px; }
-.square-line{
-floar:left;
-}
+
+/*.square-line{
+float:left;
+}*/
 .square{
 	display: table-cell;
 	padding: 0;
@@ -18,5 +24,14 @@ floar:left;
 	  border-style: solid;
   border-color: black;
   border-width: thin;
-  float:left;
+  background-color: #ffffff;
+  } 
+
+/*
+.square-line{
+  display: table-row;
+  width: 600px;
+  margin: 0;
+  padding: 0;
 }
+*/
