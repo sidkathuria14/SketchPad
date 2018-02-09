@@ -55,3 +55,10 @@ var chosencolor;
     	console.log("clicked");
     	$(this).css("background-color",color = chosencolor);
     });
+$('#reset').on('click',function(){
+for(var i=0;i<16;i++){
+for(var j=0;j<16;j++){
+    $('.square').css("background-color",color = '#ffffff');
+}
+}
+});
